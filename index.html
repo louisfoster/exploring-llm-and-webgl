@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>interactive menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+	<body>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"main": "./main.js",
+					"ui": "./ui.js",
+					"three": "./three.module.js",
+					"FontLoader": "./FontLoader.js",
+					"TextGeometry": "./TextGeometry.js"
+				}
+			}
+		</script>
+
+		<script type="module">
+			import { main } from 'main';
+			main();
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 16px;
+	overscroll-behavior: none;
+
+	background: linear-gradient(167deg, rgb(4, 162, 217) 0%, rgb(130, 201, 226) 34%, rgb(176, 215, 147) 97%);
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.container {
+	cursor: grab;
+	border: 2px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 0px 0px rgba(52, 102, 100, 0.26);
+}
+
+.hover {
+	cursor: pointer;
+}

@@ -1,0 +1,26 @@
+{
+    "state_machine": {
+        "000": {
+            "Ich mag tanzen": "001",
+            "Ich mag singen": "002"
+        },
+        "001": "emit",
+        "002": {
+            "Ich singe laut": "003",
+            "Ich singe leise": "004"
+        },
+        "003": "emit",
+        "004": {
+            "für mich selbst": "005",
+            "mit anderen": "006"
+        },
+        "005": "emit",
+        "006": "emit"
+    },
+    "value_map": {
+        "001": "Tanzen macht Spaß!",
+        "003": "Los geht's!",
+        "005": "Viel Spaß!",
+        "006": "Lass uns singen!"
+    }
+}
